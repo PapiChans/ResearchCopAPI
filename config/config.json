@@ -1,0 +1,31 @@
+{
+    "development": {
+        "username": "CapstoneAdmin",
+        "password": "myPUPQC@BSIT31",
+        "database": "mypupqc",
+        "host": "mypupqc.postgres.database.azure.com",
+        "port": 5432,
+        "dialect": "postgres",
+        "dialectOptions": {
+            "ssl": true
+        },
+        "logging": false,
+        "timezone": "+08:00"
+    },
+    "test": {
+        "username": "root",
+        "password": null,
+        "database": "database_test",
+        "port": 3307,
+        "host": "127.0.0.1",
+        "dialect": "mysql"
+    },
+    "production": {
+        "username": "root",
+        "password": null,
+        "database": "database_production",
+        "port": 3307,
+        "host": "127.0.0.1",
+        "dialect": "mysql"
+    }
+}
