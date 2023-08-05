@@ -1,0 +1,1809 @@
+# myPUPQC API Project Changelog
+
+# Pre-0.1.0 Version Changelog
+-----
+## 0.0.1
+- Project Initialization
+- Pushed by [Albert](https://github.com/blaterwolf).
+
+## 0.0.2
+- Removed `.vscode` folder.
+- Added test controller and route to test API route if working.
+- fixed `0.1.0` to `0.0.1` on the changelog.
+- Changed `MAIN_API_ROUTE`.
+- Pushed by [Albert](https://github.com/blaterwolf).
+
+## 0.0.3
+- Added User model
+- Pushed by [Paul](https://github.com/polekstulod).
+
+## 0.0.4
+- Added User Profile model
+- Pushed by [Kim](https://github.com/Satankawaii69).
+
+## 0.0.5
+- Fixed User Profile model
+- Pushed by [Kim](https://github.com/Satankawaii69).
+
+## 0.0.6
+- Fixed .vscode gitignore
+- Fixed Users and UserProfiles models association
+- Added Users and UserProfiles seed data
+- Pushed by [Paul](https://github.com/polekstulod).
+## 0.0.7
+- Added Data to UserProfiles seed data
+- Pushed by [Kim](https://github.com/Satankawaii69).
+
+## 0.0.8
+- Added Login Functionality!!! ♥💘💖💗💓💙💚💛❣💜🧡💝💞
+- Pushed by [Albert](https://github.com/blaterwolf).
+
+## 0.0.9
+- Added the first authenticated route and controllers for the super_admin.
+- Pushed by [Albert](https://github.com/blaterwolf).
+
+## 0.0.10
+- Added user_type in Users model
+- Pushed by [Paul](https://github.com/polekstulod).
+
+## 0.0.11
+- Added Role Data in Users model
+- Pushed by [Kim](https://github.com/Satankawaii69).
+
+## 0.0.12
+- Added user_type in login controller
+- Pushed by [Paul](https://github.com/polekstulod).
+
+## 0.0.13
+- Added the boilerplate code for the Add Function of Super Admin/Student/PUP Staff
+- Pushed by [Albert](https://github.com/blaterwolf).
+
+## 0.0.14
+- Added controller to create super admin user
+- Pushed by [Paul](https://github.com/polekstulod).
+
+## 0.0.15
+- Added controller to create student, pup staff user
+- Pushed by [Kim](https://github.com/Satankawaii69).
+
+## 0.0.16
+- Minor fix in the login functionality controller.
+- Pushed by [Albert](https://github.com/blaterwolf).
+
+## 0.0.17
+- Big changes to the `admin_power.controller.js` with the 15 endpoints defined here. Some are not yet filled in this update.
+- Modified models `user_profile.js` because of the `full_name` column. (updated the logic for setting the full name)
+- Added the routes for the 15 endpoints mentioned above in `super_admin.route.js`.
+- Pushed by [Albert](https://github.com/blaterwolf).
+
+## 0.0.18
+- Added controller to create,deactivate / reactivate student / pup staff user
+- Fixed :user_id in routes
+- Pushed by [Kim](https://github.com/Satankawaii69).
+
+## 0.0.19
+- Added Role and UserRole models
+- Added User, Role and UserRole associations
+- Added Role and UserRole seeds
+- Pushed by [Paul](https://github.com/polekstulod).
+
+## 0.0.20
+- Modified two controllers: `viewSpecificSuperAdmin` and `viewAllSuperAdmin`.
+- Pushed by [Albert](https://github.com/blaterwolf).
+
+## 0.0.21
+- Added role_status in Role model
+- Pushed by [Paul](https://github.com/polekstulod).
+
+## 0.0.22
+- Added the boilerplate code for Role-related endpoints.
+- Pushed by [Albert](https://github.com/blaterwolf).
+
+## 0.0.23
+- Modified where clause in controllers.
+- Pushed by [Kim](https://github.com/Satankawaii69).
+
+## 0.0.24
+- Added the Change Password feature for the Super Admin account.
+- Added boilerplate routes and controller for the Analytics for the Dashboard.
+- Pushed by [Albert](https://github.com/blaterwolf).
+
+## 0.0.25
+- Added Analytics for Number of Users by User Type
+- Pushed by [Albert](https://github.com/blaterwolf).
+
+## 0.0.26
+- Added `node-fetch` to dependencies. (Kapag may error sa inyo, ewan ko na lang sori na 😭)
+- added more boilrplate code for some controllers in the analytics.
+- Pushed by [Albert](https://github.com/blaterwolf).
+
+## 0.0.27
+- Fix a validation in Role model
+- Added CRUD of Roles in role controllers
+- Pushed by [Paul](https://github.com/polekstulod).
+
+## 0.0.28
+- Added Analytics for user_region_count and blaclisted users (Thx albert n paul 😭).
+- Pushed by [Kim](https://github.com/Satankawaii69).
+
+## 0.0.29
+- Added prettier config file
+- Added edit student and PUP Staff routes for super admin routes
+- Added edit controller for all usertype
+- Pushed by [Paul](https://github.com/polekstulod).
+
+# 0.1.0 🎉
+-----
+- Fixed all files that have the old formatting style because of the `0.0.29` prettier config file.
+- Maybe gawin ko na lang next time yung last cross sa `analytics.controller`. for now, ayan v0.1.0 na
+- Pushed by [Albert](https://github.com/blaterwolf).
+
+## 0.1.1
+- Added EVRSERS Facility and Reservation Models
+- Pushed by [Kim](https://github.com/Satankawaii69).
+
+## 0.1.2
+- Added Login `user_roles` section.
+- Pushed by [Albert](https://github.com/blaterwolf).
+
+## 0.1.3
+- Added [admin] Controllers for EVRSERS
+- Pushed by [Kim](https://github.com/Satankawaii69).
+
+## 0.1.4
+- Added [admin] Reservation Controllers for EVRSERS
+- Pushed by [Kim](https://github.com/Satankawaii69).
+
+## 0.1.5
+- fixed admin reservation controller bug for EVRSERS.
+- fixed also the formatting for facility and reservation model.
+- Pushed by [Albert](https://github.com/blaterwolf).
+
+## 0.1.6
+- Fixed `user_profile` model where gender returns the capitalized version of the result, which makes frontend peeps go mad. cno may gawa n2,,,
+- Added `omsss.route.js` will start the routes for this project immediately.
+- Pushed by [Albert](https://github.com/blaterwolf).
+
+## 0.1.7
+- Added various [admin] and [organizer] Controllers for EVRSERS (need formatting)
+- Pushed by [Kim](https://github.com/Satankawaii69)
+
+## 0.1.8
+- Added the initial models for OMSSS.
+- Pushed by [Albert](https://github.com/blaterwolf).
+
+## 0.1.9
+- Added `info.controller.js` for both staff and student user types.
+- Pushed by [Albert](https://github.com/blaterwolf).
+
+## 0.1.10
+- Added the Edit Information of the currently logged in user for all user types (Super Admin, Student, and PUP Staff) on `info.controller.js`
+- Pushed by [Albert](https://github.com/blaterwolf).
+
+## 0.1.11
+- Completed various [admin] and [organizer] Controllers for EVRSERS (need formatting)
+- Pushed by [Kim](https://github.com/Satankawaii69)
+
+## 0.1.12
+- Added the omsss route on the `index.js`
+- Removed all `console.log`s on the `info.controller.js`
+- Added all controllers for the `omsss` (boilerplate code only)
+- Modified `evrsers.route.js` para magalaw na ni Kim yung files at mailagay na yung respective endpoints sa user types.
+- Boilerplate code for `omsss.route.js`
+- Pushed by [Albert](https://github.com/blaterwolf).
+
+# 0.2.0 🎉
+-----
+- Finished all needed controllers for ['Admin','PUP Staff', 'Student']
+- Pushed by [Kim](https://github.com/Satankawaii69)
+
+## 0.2.1
+- Updated change password response in all users
+- Uncomment update info controller in routes
+- Pushed by [Paul](https://github.com/polekstulod)
+
+## 0.2.2
+- `document.js` model is implemented for ODRS
+- Updated all controllers for `omsss` and will implement the following tomorrow.
+- Pushed by [Albert](https://github.com/blaterwolf).
+
+# 0.2.3
+- Added `education_profile` for ['ODRS']
+- Pushed by [Kim](https://github.com/Satankawaii69)
+
+## 0.2.4
+- Added Transaction Model for ODRS
+- Added Document Transaction Model for ODRS
+- Added Association for Document Model and Transaction Model 
+- Added Association for User Model and Transaction Model
+- Pushed by [Paul](https://github.com/polekstulod)
+
+## 0.2.5
+- Models updated for OMSSS. Will update more in the future kapag naayos na yung mga models for UserProfile.
+- Updated some code for all controllers, added boilerplate codes.
+- Pushed by [Albert](https://github.com/blaterwolf).
+
+## 0.2.6
+- Added email, civil status, citizenship and religion in user_profile model
+- Added user profile seed
+- Pushed by [Paul](https://github.com/polekstulod)
+
+## 0.2.7
+- Added more columns in transaction model
+- Pushed by [Paul](https://github.com/polekstulod)
+
+## 0.2.8
+- Modified `patient_information.js` model and done with the routes for that.
+- Pushed by [Albert](https://github.com/blaterwolf).
+
+## 0.2.9
+- Modificed `patient_information.js` model a bit and added major changes to `medical_history.js`
+- Added endpoints for `medical_history.controller.js`
+- Added FK to `user.js` from `medical_history.js`
+- Pushed by [Albert](https://github.com/blaterwolf).
+
+## 0.2.10
+- All student endpoints for OMSSS are done on `health_appointment.controller.js`.
+- ***Ganyu: Next on the agenda...*** ➡ <u>Super Admin appointment tables</u> (ALL)
+- Minor updates on `user.js` (added connections to Health_Appointment)
+- `medical_history.js` `get()` function changed on `medical_history` column.
+- Pushed by [Albert](https://github.com/blaterwolf).
+
+## 0.2.11
+- Added more seed in user and user_profile seeders
+- Made by [Josayah](https://github.com/Josayah32) and Pushed by [Paul](https://github.com/polekstulod)
+
+## 0.2.12
+- Added the Super Admin functionalities for OMSSS by querying all appointments.
+- Next would be PUP Staffs...
+- Pushed by [Albert](https://github.com/blaterwolf).
+
+## 0.2.13
+- Changed transaction model to request model
+- Updated user, document and request model association
+- Pushed by [Paul](https://github.com/polekstulod)
+
+## 0.2.14
+- Feeling ko tapos na lahat ng OMSSS related endpoints for PUP Staffs. I think may idadagdag pa ako pero rereviewhin ko na lang yung endpoints ulit para mapunta na siya ng v0.3.0
+- Added Josh sa `readme.md`
+- Pushed by [Albert](https://github.com/blaterwolf).
+
+# 0.3.0 🎉
+-----
+- Added all endpoints for ODRS
+- Initialized all controllers for ODRS
+- Pushed by [Paul](https://github.com/polekstulod)
+
+## 0.3.1
+- Fix some errors in `odrs.route.js`
+- Modified `document`, `request`, and `document_request` models for ODRS
+- Pushed by [Paul](https://github.com/polekstulod)
+
+## 0.3.2
+- Added about 80% of all controllers for ODRS
+- Pushed by [Paul](https://github.com/polekstulod)
+
+## 0.3.3
+- Added protected attributes on password in request model
+- Added document seeders
+- Pushed by [Paul](https://github.com/polekstulod)
+
+## 0.3.4
+- Added Protected Attributes for all related OMSSS transactions. 
+- Pushed by [Albert](https://github.com/blaterwolf).
+
+## 0.3.5
+- Bug check for OMSSS -> `health_appointment.controller.js`
+- Pushed by [Albert](https://github.com/blaterwolf).
+
+## 0.3.6
+- Bug update for OMSSS -> `health_appointment.controller.js`
+- Pushed by [Albert](https://github.com/blaterwolf).
+
+## 0.3.7
+- Edited Reservation Student Controller for ['EVRSERS']
+- Pushed by [Kim](https://github.com/Satankawaii69)
+
+## 0.3.8
+- Renamed aliases in request and document_request model
+- Added timestamp on document_request model
+- Modified document seeders
+- Fixed some errors in adding student and pup staff in `admin_power.controller.js`
+- Pushed by [Paul](https://github.com/polekstulod)
+
+## 0.3.9
+- Edited EMERGENCY Reservation Student Controller for ['EVRSERS']
+- Pushed by [Kim](https://github.com/Satankawaii69)
+
+## 0.3.10
+- Edited EMERGENCY Reservation Student Controller v1 for ['EVRSERS']
+- Pushed by [Kim](https://github.com/Satankawaii69)
+
+## 0.3.11
+- Edited EMERGENCY Reservation Student Controller v2 for ['EVRSERS']
+- Pushed by [Kim](https://github.com/Satankawaii69)
+
+## 0.3.12
+- Edited EMERGENCY Reservation Student Controller v3 for ['EVRSERS']
+- Pushed by [Kim](https://github.com/Satankawaii69)
+
+## 0.3.13
+- Renamed aliases in document_request model
+- Created update request status controller in `requests.controller.js`
+- Added more document seeders (Made by [Josayah](https://github.com/Josayah32))
+- Pushed by [Paul](https://github.com/polekstulod)
+
+## 0.3.14
+- Created addRequest controller in `requests.controller.js`
+- Updated viewRequestsHistory controller in `requests.controller.js`
+- Added education profile seeders (Made by [Ashlee Jude](https://github.com/AshleeJude))
+- Pushed by [Paul](https://github.com/polekstulod)
+
+## 0.3.15
+- Updated `health_appointment.controller.js` a bit to add `separate: true` on every `include`.
+- Pushed by [Albert](https://github.com/blaterwolf).
+
+## 0.3.16
+- Added Seeder file for `Reservations` and `Facilities` for ['EVRSERS']
+- Pushed by [Kim](https://github.com/Satankawaii69)
+
+## 0.3.17
+- Updated Seeder file for `Reservations` for ['EVRSERS']
+- Removed Approved status from `Student - Reservation Controller`
+- Pushed by [Kim](https://github.com/Satankawaii69)
+
+## 0.3.18
+- Created viewAllDocumentTypes controller in `requests.controller.js`
+- Fix addRequest controller in `requests.controller.js`
+- Fix document and education profile seeders
+- Pushed by [Paul](https://github.com/polekstulod)
+
+## 0.3.19
+- replaced `immunization_information.js` to `vaccine_information.js`
+- this table is for covid related vaccination only.
+- Pushed by [Albert](https://github.com/blaterwolf).
+
+## 0.3.20
+- Updated the patient_information endpoint.
+- Pushed by [Albert](https://github.com/blaterwolf).
+
+## 0.3.21
+- Created updateRequestStatus pup staff controller in `requests.controller.js`
+- Add filter function in addRequest controller in `requests.controller.js`
+- Fix education profile seeders
+- Pushed by [Paul](https://github.com/polekstulod)
+
+## 0.3.22
+- Added Appointment Logs Controller and Route
+- Pushed by [Albert](https://github.com/blaterwolf).
+
+## 0.3.23
+- Add more endpoints for requests pup staff controller in `odrs.routes.js`
+- Add viewAllRequestsStatus and updateRequestRemarks function in `requests.controller.js`
+- Pushed by [Paul](https://github.com/polekstulod)
+
+# 0.4.0 🎉
+-----
+- Start of a new cycle version.
+- Removed all related Prescription endpoints for OMSSS.
+- Pushed by [Albert](https://github.com/blaterwolf).
+
+## 0.4.1
+- Fix some errors in pup staff and admin requests in `requests.controller.js`
+- Pushed by [Paul](https://github.com/polekstulod)
+
+## 0.4.2
+- Added limit functionaliity in adding requests in `requests.controller.js` (Limit of 1 request at a time per student)
+- Pushed by [Paul](https://github.com/polekstulod)
+
+## 0.4.3
+- Major Major changes to EVRSERS Routes and Controllers
+- Pushed by [Kim](https://github.com/Moonkeyk666)
+
+## 0.4.4
+- Moved education profile controller to info controller
+- Changed error response in adding requests
+- Pushed by [Paul](https://github.com/polekstulod)
+
+## 0.4.5
+- documentation on `health_appointment.controller.js`
+- basically walang update 
+- Pushed by [Albert](https://github.com/blaterwolf).
+
+## 0.4.6
+- Update education profile in student `info.controller.js`
+- Pushed by [Paul](https://github.com/polekstulod)
+
+## 0.4.7
+- Updated `covid_vaccine_information` to `immunization` due to context change.
+- Updated the routes for it.
+- (basically, tinetesting ko kung gumagana na ba yung git push sa vscode, kung nakita mo 'to sa latest update, ibig sabihin gumana na ulet)
+- Pushed by [Albert](https://github.com/blaterwolf).
+
+## 0.4.8
+- Created document_requirements model
+- Remove document_requirements in document seeders
+- Pushed by [Paul](https://github.com/polekstulod)
+
+## 0.4.9
+- Created document_requirements seeders
+- Updated document seeders
+- Pushed by [Micah](https://github.com/micahvllz)
+
+## 0.4.10
+- Added viewDocumentRequirements controller in `requests.controller.js`
+- Included document_requirements in retrieving document info
+- Pushed by [Paul](https://github.com/polekstulod)
+
+## 0.4.11
+- Updated document seeders
+- Pushed by [Micah](https://github.com/micahvllz)
+
+## 0.4.12
+- Immunization Table is created along with its endpoints.
+- Boilerplate code muna kasi File Uploading ito 😭
+- Pushed by [Albert](https://github.com/blaterwolf).
+
+## 0.4.13
+- Updated Student controller `reservation.controller.js`
+- Updated Student models `reservation.js`
+- Pushed by [Kim](https://github.com/Moonkeyk666)
+
+# 0.5.0 🎉
+-----
+- Updated PUP Staff controller `reservation.controller.js`
+- Updated EVRSERS routes `evrsers.route.js`
+- Updated Student controller `reservation.controller.js`
+- Start of a new cycle version
+- Pushed by [Kim](https://github.com/Moonkeyk666)
+
+## 0.5.1
+- Updated Admin facility controller `facility.controller.js`
+- Updated Admin reservation controller `reservation.controller.js`
+- Updated Admin facility models `facility.js`
+- Pushed by [Kim](https://github.com/Moonkeyk666)
+
+## 0.5.2
+- Changed student updateInfo controller from PUT to PATCH
+- Added Cancelled by Student and Cancelled by Staff request_status in Request model
+- Added Cancelled payment_status in Request model
+- Added OR_number in Request model
+- Modified multiple controllers in `requests.controller.js`
+- Pushed by [Paul](https://github.com/polekstulod)
+
+## 0.5.3 
+- Added `analytics.controller.js` on PUP Staff
+- Modified health_appointment.js model: added consultation_type
+- Pushed by [Albert](https://github.com/blaterwolf).
+
+## 0.5.4
+- Hot fix for `health_appointment.js` model, may mali lang na nailagay
+- Added descriptions for controllers sa mga routes nila.
+- Checked `consultation_type` for each OMSSS endpoints, mukhang okay naman na.
+- Pushed by [Albert](https://github.com/blaterwolf).
+
+# 0.6.0 🎉
+-----
+- Major update for uploading files in the containers.
+- `multer` and `multer-azure-blob-storage` are added.
+- New files related to files uploading are added in the `helpers` folder.
+- Pushed by [Albert](https://github.com/blaterwolf).
+
+## 0.6.1
+- Updated Reservation Model and added file handling support `reservation.js`
+- Updated Reservation Controller and added file handling support `reservation.controller.js`
+- Pushed by [Kim](https://github.com/Moonkeyk666)
+
+## 0.6.2
+- Finished off the OMSSS Routes for Adding/Editing/Viewing of Vaccination Cards in Immunization Tab
+- Added more boilerplate code for `philhealth_id` related calls in the `patient_information` later on to be updated.
+- Updated models using the `get()` function
+- Used Prettier on `reservation.controller.js` on EVRSERS (di kasi nagana kay kim, saket)
+- Pushed by [Albert](https://github.com/blaterwolf).
+
+## 0.6.3
+- Updated the functionality for uploading Philhealth ID in the `patient_information` section.
+- Pushed by [Albert](https://github.com/blaterwolf).
+
+## 0.6.4
+- Updated the logic for OMSSS and EVRSERS' control number logic.
+  - More Info: On the previous versions, kapag ang day ay two digits for example ay 928 (November 23), nagiging RES-112345A siya and dapat 6 digits lang yung unique code.
+- Pushed by [Albert](https://github.com/blaterwolf).
+
+## 0.6.5
+- Updated Reservation Model and added file handling support `reservation.js`
+- Updated Student Reservation Controller and added file handling support `reservation.controller.js`
+- Updated Facility Model and added file handling support `facility.js`
+- Updated Super Admin Reservation Controller and added file handling support `reservation.controller.js`
+- Updated `evrsers.route.js`, `imageMiddleware.js`, `imageStorage.js` for EVRSERS Facility and Reservation File Handling
+- Pushed by [Kim](https://github.com/Moonkeyk666)
+
+## 0.6.6
+- Updated both `patient_information.js` and `immunization.js` files in line with the new containers for both files.
+- Updated the helper `imageStorage.js` to redirect the correct container for files mentioned above.
+- Removed some `console.log()`s in different files.
+- Pushed by [Albert](https://github.com/blaterwolf).
+
+## 0.6.7
+- Updated Medical History logic (removed the Smoker/Alcoholic Count Scenario)
+- Updated Patient Information and Immunization Endpoint scenarios where if (req.files is present: then add to req.body)
+- Updated health appointment logs endpoint again (might change it back later)
+- Pushed by [Albert](https://github.com/blaterwolf).
+
+## 0.6.8
+- Added the 1 Appointment Rule on Appointments in OMSSS.
+- Pushed by [Albert](https://github.com/blaterwolf).
+
+## 0.6.9
+- Fixed View specific Reservation on EVRSERS
+- Pushed by [Albert](https://github.com/blaterwolf).
+
+## 0.6.10
+- Updated Student `Reservation.controller.js` (Removed `Organization` and Update `Reserve_status`)
+- Implemented Appointment Checker for Student `Reservation.controller.js` to limit and avoid spamming
+- Updated Model `Reservation`
+- Pushed by [Kim](https://github.com/Moonkeyk666)
+
+## 0.6.11
+- Updated Student `Reservation.controller.js` 
+- Updated Routes for EVRSERS
+- Pushed by [Kim](https://github.com/Moonkeyk666)
+
+## 0.6.12
+- Updated Student `Reservation.controller.js` 
+- Updated Staff `Reservation.controller.js` 
+- Pushed by [Kim](https://github.com/Moonkeyk666)
+
+## 0.6.13
+- Modified Upload document for PUP Staff in `document.controller.js`
+- Included document requirements in view specific documents
+- Pushed by [Paul](https://github.com/polekstulod)
+
+## 0.6.14
+- Updated cancel status in pupstaff and super admin controllers
+- Pushed by [Paul](https://github.com/polekstulod)
+
+## 0.6.15
+- Added remarks on update status controller in pup staff
+- Added date cancelled on update status controller in pup staff
+- Removed update remarks controller in pup staff
+- Pushed by [Paul](https://github.com/polekstulod)
+
+## 0.6.16
+- Change the request model column name for dates
+- Pushed by [Paul](https://github.com/polekstulod)
+
+## 0.6.17
+- Fix some bugs in documents and request controllers
+- Pushed by [Paul](https://github.com/polekstulod)
+
+## 0.6.18
+- Removed the `consultation_date` condition for PUP Staff in OMSSS (because buggy and i-tetest ko pa.)
+- Removed the Nurse options in the endpoints kasi di na yun ang direction ng aming system.
+- Added the `some` function for user_roles in updateStatus endpoint.
+- Pushed by [Albert](https://github.com/blaterwolf).
+
+## 0.6.19
+- Created a General Endpoint for all three endpoints for getting all pending appointments for three appointment_types (i.e. ['Medical', 'Dental', 'Guidance'])
+- Deleted all unnecessary code for PUP Staff
+- Pushed by [Albert](https://github.com/blaterwolf).
+
+## 0.6.20
+- Added odrsRoles middleware to check if the user has a right role to access the endpoints in ODRS
+- Pushed by [Paul](https://github.com/polekstulod)
+
+## 0.6.21
+- Modified the conditions in the `consultation_status` on the Cancelled statuses (specified through staff and student)
+- Added two new endpoints for staff: `view_appointment_analytics` and `view_specific_appointment`
+- Pushed by [Albert](https://github.com/blaterwolf).
+
+## 0.6.22
+- Added the Supposed Analytics part for OMSSS (not yet verified kung correct yung code for that)
+- Wag na lang po i-run yung endpoint muna bwahsahsha
+- Pushed by [Albert](https://github.com/blaterwolf).
+
+## 0.6.23
+- Added and Modified some endpoints in the Super Admin for OMSSS.
+- All endpoints for Appointments for Super Admin - OMSSS should be complete by now.
+- Pushed by [Albert](https://github.com/blaterwolf).
+
+## 0.6.24
+- Updated staff request controller
+- Pushed by [Paul](https://github.com/polekstulod)
+
+## 0.6.25
+- Updated edit document in pup staff document controller
+- Pushed by [Paul](https://github.com/polekstulod)
+
+## 0.6.26
+- Updated Student `Reservation.controller.js` added Date range logic for `View all reservations`
+- Pushed by [Kim](https://github.com/Moonkeyk666)
+
+## 0.6.27
+- Added new Endpoint for Shane in PUP Staff: `viewAllApprovedAppointmentBasedOnRole`
+- Added some boilerplate comments for Admin Analytics
+- Pushed by [Albert](https://github.com/blaterwolf).
+
+## 0.6.28
+- Added Add Pubmats to Approved Reservation `Reservation.controller.js`
+- Added File handling for `reservation_pubmats.js`
+- Updated `Image Middleware` & `Image Storage` for File handling
+- Pushed by [Kim](https://github.com/Moonkeyk666)
+
+## 0.6.29
+- Edited files using Prettier on `reservation_pubmats.js`
+- Modified some code in `reservation.controller.js`
+- Pushed by [Albert](https://github.com/blaterwolf).
+
+## 0.6.30
+- Updated Add Pubmats to Approved Reservation `Reservation.controller.js`
+- Updated File handling for `reservation_pubmats.js`
+- Updated `Image Middleware` & `Image Storage` for File handling
+- Pushed by [Kim](https://github.com/Moonkeyk666)
+
+## 0.6.31
+- Reformatted the `reservation.controller.js` and `reservationpubmats.js` in Prettier
+- Pushed by [Albert](https://github.com/blaterwolf).
+
+## 0.6.32
+- Updated myPUPQC-API with the `@azure/storage-blob` npm package for deletion purposes of files in the Azure Blob Storage Container.
+- Updated readme.md for that dependency.
+- Added instructions in addPubmats for Kim.
+- Pushed by [Albert](https://github.com/blaterwolf).
+
+# 0.7.0 🎉
+-----
+- Major Update pushed to 0.7.0 because of OMSSS: all endpoints should be finished by this point so *any fixes in the endpoints are due to unnoticed bugs*.
+- Analytics for OMSSS are added for Super Admin which is the goal for Sprint 8.
+- Modified all Changelogs with Major updates (0.n.0) to have party poppers beside it. 🎉
+- Modified `readme.md` with the correct date in Start Date. (2021 -> 2022) (ngayon lang napansin lol)
+- Pushed by [Albert](https://github.com/blaterwolf).
+
+## 0.7.1
+- Added the date functionality for appointment related queries in student as per discussion namin ni kim. 
+- Pushed by [Albert](https://github.com/blaterwolf).
+
+## 0.7.2
+- Refactored some code in `reservation.controller.js`
+- Pushed by [Albert](https://github.com/blaterwolf).
+
+## 0.7.3
+- Added other half of `reservation.controller.js` for `AddPubmats`
+- Pushed by [Kim](https://github.com/Moonkeyk666)
+
+## 0.7.4
+- Added other half of `reservation.controller.js` for `AddPubmats` Update 2
+- Pushed by [Albert](https://github.com/blaterwolf).
+
+## 0.7.5
+- Added Final Version of `reservation.controller.js` for `AddPubmats`
+- Pushed by [Kim](https://github.com/Moonkeyk666)
+
+## 0.7.6
+- Modified some endpoints and added some extra parameters for `appointment_type`
+- Pushed by [Albert](https://github.com/blaterwolf).
+
+## 0.7.7
+- Added an include statement for all PUP Staff endpoints to access the name of the student.
+- Added the `attending_physician` attribute to the `updateStatus`
+- Pushed by [Albert](https://github.com/blaterwolf).
+
+## 0.7.8
+- Merged Pending and Approved on one Endpoint as per Shane request on PUP Staff
+- Removed the time code since it's no longer being used.
+- Updated remarks request model
+- Pushed by [Paul](https://github.com/polekstulod)
+- Pushed by [Albert](https://github.com/blaterwolf).
+
+## 0.7.9
+- Minor update for cancelling appointments: `consultation_status` set from "Cancelled" to "Cancelled by Student"
+- Pushed by [Albert](https://github.com/blaterwolf).
+
+## 0.7.10
+- Minor update for updating appointments: removed the attributes for `viewSpecificAppointment`
+- Pushed by [Albert](https://github.com/blaterwolf).
+
+## 0.7.11
+- Added Analytics Module of EVRSERS `analytics.controller.js`
+- Added EVRSERS Analytics to `evrsers.routes.js` 
+- Pushed by [Kim](https://github.com/Moonkeyk666)
+
+## 0.7.12
+- Minor update for Student `reservation.controller.js` and `evrsers.route.js`
+- Pushed by [Kim](https://github.com/Moonkeyk666)
+
+## 0.7.13
+- Fix for updateStatus in PUP Staff
+- Pushed by [Albert](https://github.com/blaterwolf).
+
+## 0.7.14
+- Fix for Super Admin Appointment endpoints
+- Pushed by [Albert](https://github.com/blaterwolf).
+
+## 0.7.15
+- Added documentation for `reservation.controller.js`
+- Pushed by [Albert](https://github.com/blaterwolf).
+
+## 0.7.16
+- Added `updateReservationStatus` for Student `reservation.controller.js`
+- Pushed by [Kim](https://github.com/Moonkeyk666)
+
+## 0.7.17
+- Added additional log conditions in `index.js` aside the url
+- Renamed something on `controller.helper.js`
+- Pushed by [Albert](https://github.com/blaterwolf).
+
+## 0.7.17.5
+- Minor update to said update above regarding `index.js`
+- Pushed by [Albert](https://github.com/blaterwolf).
+
+## 0.7.18 💀
+- Major Update: Added package `winston` -> This helps us to log all console.logs and possibly all the endpoints used.
+- Pushed by [Albert](https://github.com/blaterwolf).
+
+## 0.7.19
+- Added view specific history in admin controller
+- Pushed by [Paul](https://github.com/polekstulod)
+
+## 0.7.19.5 (#2)
+- Minor update kasi binago ko lang yung verbose to info sa may `index.js`
+- Updated logger.js to stop logging.
+- Pushed by [Albert](https://github.com/blaterwolf).
+
+## 0.7.20
+- Nagets ko na kung paano yung logging ng ibang levels, it's on line 26 sa `logger.js` 💀 (salamat ChatGPT)
+- Added the logging feature sa `controller.helper.js` dahil doon mostly makikita lahat ng data so makikita na siya sa console.
+- Pushed by [Albert](https://github.com/blaterwolf).
+
+## 0.7.21
+- Some minor updates on admin documents and requests controller
+- Pushed by [Paul](https://github.com/polekstulod)
+
+## 0.7.22
+- First set of endpoints in `role.controller.js` for viewing all/specific roles of a user.
+- Pushed by [Albert](https://github.com/blaterwolf).
+
+## 0.7.23
+- Fix for EVRSERS on `reservation.controller.js` in PUP Staff.
+- Part 2 of endpoints for `role.controller.js` for adding one or more roles to a user.
+- Pushed by [Albert](https://github.com/blaterwolf).
+
+## 0.7.24
+- Some minor updates on admin requests controller
+- Pushed by [Paul](https://github.com/polekstulod)
+
+## 0.7.25
+- Update for Roles <-> UserRoles Controller
+- Get all roles active and then return the roles that are available to add.
+- Add roles to a user
+- Remove roles to a user
+- Pushed by [Albert](https://github.com/blaterwolf).
+
+## 0.7.26
+- Modified some descriptions in `role.controller.js`
+- Reorganized `evrsers.route.js` according to pages.
+- Pushed by [Albert](https://github.com/blaterwolf).
+
+# 0.8.0 🎉
+----
+- Major update pushed to version 0.8.0
+- Added `viewAllFacilitiesStudent` & `viewSpecificReservationStudent` for Student `reservation.controller.js`
+- Updated `viewDetailsReservationStaff` for Staff `reservation.controller.js`
+- Added `deleteReservation` & `viewAdminSpecificReservation` for Admin `reservation.controller.js`
+- Pushed by [Kim](https://github.com/Moonkeyk666)
+
+## 0.8.1
+- Modified Admin & Student `reservation.controller.js`
+- Modified Admin `facility.controller.js`
+- Reorganized `evrsers.route.js` according to pages.
+- Added `facility_description` to `facility.js` Model
+- Pushed by [Kim](https://github.com/Moonkeyk666)
+
+## 0.8.2
+- Hotfix Student `reservation.controller.js`
+- Pushed by [Kim](https://github.com/Moonkeyk666)
+
+## 0.8.3
+- Added view Request controller for student
+- Pushed by [Paul](https://github.com/polekstulod)
+
+## 0.8.4
+- Minor updates on cancelling student request
+- Pushed by [Paul](https://github.com/polekstulod)
+
+## 0.8.5
+- Added retrieving all deleted documents in admin controller
+- Pushed by [Paul](https://github.com/polekstulod)
+
+## 0.8.6
+- Created Announcement Model `Announcement.js`
+- Pushed by [Kim](https://github.com/Moonkeyk666)
+- Added pup staff request analytics
+- Pushed by [Paul](https://github.com/polekstulod)
+
+## 0.8.7
+- Added pup staff history analytics
+- Pushed by [Paul](https://github.com/polekstulod)
+
+## 0.8.8
+- Added super admin requests analytics
+- Pushed by [Paul](https://github.com/polekstulod)
+
+## 0.8.9
+- analytics again, sorry albert 🥹
+- Pushed by [Paul](https://github.com/polekstulod)
+
+## 0.8.10
+- BAKIT MAY 🥺 GANON PAUL IM WEAK
+- Anyways, `announcement.js` fixed with prettier
+- Added a new endpoint for student omsss in preparation sa implementation ng existing appointment.
+- Pushed by [Albert](https://github.com/blaterwolf).
+
+## 0.8.11
+- Updated requests paranoid in all requests controllers
+- Pushed by [Paul](https://github.com/polekstulod)
+
+## 0.8.12
+- Updated document and request models to add new columns(document status and request qualifications)
+- Updated deleted documents in admin controller
+- Pushed by [Paul](https://github.com/polekstulod)
+
+## 0.8.13
+- Minor updates in admin request controller
+- Pushed by [Paul](https://github.com/polekstulod)
+
+## 0.8.14
+- Modify `EditReservation` in Student `reservation.controller.js`
+- Pushed by [Kim](https://github.com/Moonkeyk666)
+
+## 0.8.15
+- Added the dynamic upload from the edit reservation endpoint.
+- salamat openai
+- Pushed by [Albert](https://github.com/blaterwolf).
+
+## 0.8.16
+- Finalized `EditReservation` in Student `reservation.controller.js`
+- Pushed by [Kim](https://github.com/Moonkeyk666)
+
+## 0.8.17
+- Added `announcement.route.js` to the routes and to the `index.js`
+- Boilerplate code only!! *mga ideya pa lang -> paguusapan pa*
+- Pushed by [Albert](https://github.com/blaterwolf).
+
+## 0.8.18
+- Added useful comment for documentation in all ODRS controllers
+- Pushed by [Paul](https://github.com/polekstulod)
+
+## 0.8.19
+- Added `node-cron` for scheduling task/jobs
+- Added expiration date in request model
+- Added cron function to check for expired requests in `odrs_cron_jobs.js`
+- Updated staff and student request controller for expired requests
+- Pushed by [Paul](https://github.com/polekstulod)
+
+## 0.8.20
+- Added the partial code for Reset Password link logic
+- Security Update for `jsonwebtoken` 
+- Pushed by [Albert](https://github.com/blaterwolf).
+
+## 0.8.21
+- Added the second half of the code for Reset Password link logic
+- Pushed by [Albert](https://github.com/blaterwolf).
+
+## 0.8.22
+- Added boilerplate code notes for cron_jobs for EVRSERS and OMSSS
+- Added reference to reset password method.
+- Pushed by [Albert](https://github.com/blaterwolf).
+
+## 0.8.23
+- Added nodemailer
+- Modified some code in `reset_password.controller`
+- Pushed by [Albert](https://github.com/blaterwolf).
+
+## 0.8.24
+- Final implementation of Reset Password with Email Sending via Mailgun
+- Pushed by [Albert](https://github.com/blaterwolf).
+  
+## 0.8.25
+- Modified `ViewReservation` in Student `reservation.controller.js`
+- Added initial CRON Jobs for EVRSERS
+- Pushed by [Kim](https://github.com/Moonkeyk666)
+
+## 0.8.26
+- Modified `ViewReservation` `View Specific` in Student `reservation.controller.js`
+- Pushed by [Kim](https://github.com/Moonkeyk666)
+
+## 0.8.27
+- Added the "Get in Touch" backend code found in the frontpage of myPUPQC.
+- Pushed by [Albert](https://github.com/blaterwolf).
+
+## 0.8.27.5
+- Hotfix for from address (kasi ewan q ba arte ng mailgun)
+- Pushed by [Albert](https://github.com/blaterwolf).
+
+## 0.8.28
+- Updated EVRSERS' cron jobs.
+- Removed `updateReservationStatus` on EVRSERS dahil cron jobs na ang pumalit.
+- Added `nodemailer-mailgun-transport` on npm list sa readme.
+- Pushed by [Albert](https://github.com/blaterwolf).
+
+## 0.8.29
+- Implemented Email Sending in Approved/Cancelled by Staff scenario in OMSSS on PUP Staff
+- Pushed by [Albert](https://github.com/blaterwolf).
+
+## 0.8.30
+- Added the cron job for OMSSS
+- (hindi pa talaga yan na-testing... mamaya ta-try q)
+- Pushed by [Albert](https://github.com/blaterwolf)
+
+## 0.8.31
+- Added cron_jobs for OMSSS and EVRSERS in `index.js` pano kaya yun gagana parang tanga eme
+- Modified the endpoint for Announcement System from `/mypupqc/v1/announcement` to `/mypupqc/v1/annsys`
+- Renamed the `announcement.route.js` to `annsys.route.js`
+- Added the middlewares to be used in Announcement System in `annsysRolesMiddleware.js`
+- Renamed `eversers_cron_job.js` to `evrsers_cron_job.js`
+- Added all possible controllers and routes for Announcement System for PUP Staff (`advisory/announcement/news.controller.js`)
+- Pushed by [Albert](https://github.com/blaterwolf)
+
+## 0.8.32
+- Added `sendReservationUpdateStatus` in Student `reservation.controller.js` (Email Sending/Update Feature)
+- Modified EVRSERS Analytics because of changes in `facility.js` Model
+- Pushed by [Kim](https://github.com/Moonkeyk666)
+
+## 0.8.33
+- Fix some bugs in `odrs_cron_jobs.js`
+- Added initial boilerplate code for Document Request email sending in ODRTS
+
+## 0.8.33.5
+- Bug fixing CRON Jobs
+- Pushed by [Kim](https://github.com/Moonkeyk666)
+
+## 0.8.34
+- Updated both OMSSS and EVRSERS CRON jobs
+- Pushed by [Albert](https://github.com/blaterwolf)
+
+## 0.8.35
+- Added email sending functionality in ODRTS
+- Updated some request controllers for email sending
+- Moved `sendRequestUpdateEmail` function into separate file (para hindi na paulit ulit yung code)
+- Pushed by [Paul](https://github.com/polekstulod)
+
+## 0.8.36
+- Modified `Reservation.controller.js` for Super Admin and PUP Staff
+- Pushed by [Kim](https://github.com/Moonkeyk666)
+
+## 0.8.37
+- Added all the code for the following `news.controller.js`:
+  - Adding News
+  - Get All News created by the logged in user
+  - Get All News not from the logged in user
+  - Get Specific News
+- Added a Container for all announcement related images.
+  - Changes can be seen on `imageMiddleware.js` and `imageStorage.js`
+- Modified the route names on `advisory.controller.js` and `announcement.controller.js`
+- Modified heavily the `announcement.js` model
+- Added image middleware on the news route on `annsys.route.js`.
+- Pushed by [Albert](https://github.com/blaterwolf)
+
+## 0.8.38
+- Added notes for Kim and Paul sa Advisories and Announcements
+- Added also the endpoint for "not logged in" for both announcement and advisory (gawa ng 2-tab system natin)
+- (feeling ko tatanggalin yan pero sige ssjshsh)
+- Added endpoint for Super Admin in Announcement System
+- Pushed by [Albert](https://github.com/blaterwolf)
+
+## 0.8.39
+- Final update (for the time being): Added Announcement controller for Kim sa Students and the routes for it
+- Modified the beforeCreate logic in `announcement.js` model: Kapag yung announcement_type ay equal sa Announcement, hindi siya bibigyan ng link kasi through modal lang ipapakita yung for Announcements.
+- Pushed by [Albert](https://github.com/blaterwolf)
+
+## 0.8.40
+- Added Home Route and Controller for News (and Advisory for Paul -> endi q cinode) to be shown in the Home page
+- Added Route documentation for:
+  - `contact.controller.js`
+  - `login.controller.js`
+  - `reset_password.controller.js`
+- Pushed by [Albert](https://github.com/blaterwolf)
+
+## 0.8.41
+- Added route and controller for getting the specific news based on the reference_id on home
+- Modified `announcement_link`: changed `/?=go` to just `/` (since dynamic parameter na siya sa may PHP)
+- Added the specific controller for super_admin `getSpecificAnnouncement`
+- Pushed by [Albert](https://github.com/blaterwolf)
+
+## 0.8.42
+- Modified `Reservation.controller.js` for Super Admin and PUP Staff
+- Pushed by [Kim](https://github.com/Moonkeyk666)
+
+## 0.8.43
+- Added include option to get the author of the news for the Guest side and the PUP Staff side
+- Modified the cron job because mali yung nalagay ko na condition: (appointment_status -> consultation_status)
+- Pushed by [Albert](https://github.com/blaterwolf)
+
+## 0.8.43.5
+- Hotfix for news in `annysys.controller.js` in home: bakit ko ba binura yung req dun sa function? (crying as we speak 💅)
+- Pushed by [Albert](https://github.com/blaterwolf)
+
+## 0.8.44
+- Fix for User Role Interaction in `role.controller.js` where i forgot to take into account kung isa lang tatanggalin na role
+- Added code for the Super Admin Get Announcements/Get Specific Announcements
+- Pushed by [Albert](https://github.com/blaterwolf)
+
+## 0.8.45
+- Fix email errors in email sending in ODRTS
+- Pushed by [Paul](https://github.com/polekstulod)
+
+## 0.8.46
+- Announcement System: Part 1 Changes
+  - Implemented Advisory related Endpoints
+  - Implemented Announcement related Endpoints
+- (endi ko pa nachcheck mamaya i-fact check ko)
+- Added delete endpoints for Announcement System
+  - Will add a announcement_status later in the database so this would act as a soft delete
+  - Also added the `checkAuthorization` code kasi for some reason nakalimutan ko ilagay
+- Pushed by [Albert](https://github.com/blaterwolf)
+
+## 0.8.46.5
+- Hotfix for roles with their names via UserProfile
+- Modified `contact.controller.js` getinTouch endpoint to go to `mypupqc@gmail.com` 
+- Pushed by [Albert](https://github.com/blaterwolf)
+
+## 0.8.47
+- Napagod na aq mag-scroll so, `user_roles.controller.js` for anything related to User Role <-> Role Relationship is created. So lahat ng code sa may `role.controller.js` is moved.
+- Added an extra route: `super_admin/users_without_roles` to fetch all users na wala pang roles.
+- Pushed by [Albert](https://github.com/blaterwolf)
+
+## 0.8.48
+- Added the advisory endpoints code for the home page
+- Pushed by [Albert](https://github.com/blaterwolf)
+
+## 0.8.49
+- Added include fields for Announcement and Advisory (nakalimutan bhe cenxia)
+- Pushed by [Albert](https://github.com/blaterwolf)
+
+## 0.8.49.5
+- Hotfix: forgot about `announcement_type` as where condition for all annsys controllers.
+- Pushed by [Albert](https://github.com/blaterwolf)
+
+## 0.8.50
+- Added student Announcement endpoints content
+- modified `announcement.js` yung link
+- Pushed by [Albert](https://github.com/blaterwolf)
+
+## 0.8.51
+- Added a console.log for file in news and advisories
+- Added holiday table pero hindi pa naka-sync
+- Pushed by [Albert](https://github.com/blaterwolf)
+
+## 0.8.52
+- Part 1: The Last Dance Update
+- Modified the Holiday Table: Status -> added `Deleted`
+- Added a `defaultValue` to `holiday_status` to `Active`
+- Modified `role_for` args in `isIn`: added `Both` as an option
+- Modified `role_status` from boolean to string -> added Active/Inactive/Deleted with a `defaultValue` to `Active`
+- Arranged the order of the Role and UserRole Controllers
+- Added a new endpoint in Role Controllers: `viewRolesBasedOnRoleFor`
+  - Get all Roles based on the User Type provided on Parameter
+- Modified the `deactivateRole` to `changeRoleStatus` (switch: Active to Inactive and vice versa)
+- Added `deleteRole` where the Roles assigned to the users are Deleted and set the status to `Deleted`
+- Fixed the `role_status` on `getAllRoles` in `user_role.controller.js`
+- Modified the logic in the db log in `index.js`
+- Pushed by [Albert](https://github.com/blaterwolf)
+
+## 0.8.53
+- Part 2: The Last Dance Update
+- Added an `announcement_status` column where it has `isIn` states: `'Published', 'Hidden', 'Deleted'`
+- With the update, added the Advisory/News/Announcement `where` condition for `announcement_status` on the `annsys.controller.js` for Home/Guest and Student Announcement
+- Added also the `announcement_status` for all PUP Staff endpoints
+- Added change status functions for all types of Announcements (`changeAnnouncementStatus`, `changeAdvisoryStatus`, `changeNewsStatus`)
+- Added the delete functions for all types of Announcements (`deleteAnnouncement`, `deleteAdvisory`, `deleteNews`)
+- On the Super Admin, added the `changeStatus` and `deleteAnnouncement`
+- Pushed by [Albert](https://github.com/blaterwolf)
+
+## 0.8.54
+- Added various model to start Sprint 10
+- Organized different controllers to its functionality
+- Pushed by [Kim](https://github.com/Moonkeyk666)
+
+## 0.8.55
+- Modified the CRON Job for OMSSS (since mali pala nalagay kong where properties)
+- Added the routes and endpoints for Holiday related queries
+- Added a boilerplate CRON Job for Holiday queries and added rin sa `index.js`
+- Pushed by [Albert](https://github.com/blaterwolf)
+
+## 0.8.56
+- Added Controller for `Organization`
+- Pushed by [Kim](https://github.com/Moonkeyk666)
+
+## 0.8.57
+- Part 3: The Last Dance Update
+- Added a `holiday_type` in the column for Regular and Special-Non Working Holidays
+- Changed the datatype of `holiday_description` to `TEXT`
+- Removed the `defaultValue` in `holiday_recurrence`
+- Added another Holiday Controller for changing status
+- Added all controllers for the Holiday Module in `holiday.controller.js` (except edit...)
+- Pushed by [Albert](https://github.com/blaterwolf)
+
+# 0.9.0 🎉
+----
+- Major update pushed to version 0.9.0
+- Removed the Edit Role Information entirely. We will need to warn sa Frontend na cannot be edited yung Role Information once added. 
+- Edited the Remarks Data Type for `Health Appointment` Table
+- Other features up to the last update (before 1.0.0) will be placed in this version.
+- Pushed by [Albert](https://github.com/blaterwolf)
+
+## 0.9.0.5 - v6
+- Hotfix: Modified the role status in the `viewAllRoles` (Kailangan kasama na rin yung Inactive)
+- Hotfix v2: Modified the User Role endpoint `viewAllUsersRoles` to fetch for the specific User Type only
+- Hotfix v3: Modified Role endpoint `viewRolesBasedOnRoleFor` to NOT get the Inactive and Deleted Roles
+- Hotfix v4: Modified User Role endpoint `viewUsersWithoutRoles` to fetch for the specific User Type only
+- Hotfix v5: Modified:
+  - `getAllRoles`: Pinasok ko sa loob ng db.User call yung pag-fetch ng mga active roles para ma-filter ko rin yung `role_for` sa intended na mga Roles for the user
+  - `viewSpecificUsersRoles`: hindi ko na ininclude yung role_id so ang nafefetch na agad is yung list of role_name ng user.
+- Hotfix v6: Modified the Holiday Controllers (nailagay ko ng di sinasadya sa Op.not yung Inactive)
+- Pushed by [Albert](https://github.com/blaterwolf)
+
+## 0.9.1 - v3
+- Modified the `organization.js` - Added the `organization_abbreviation`
+- Modified the Controllers - Added the `organization_abbreviation`
+- Hotfix: Added the filter for Active/Inactive organization in `viewAllOrganization`
+- Hotfix: Modified Holiday Table (tinanggal ko na yung start_date at end_date columns...)
+- Pushed by [Albert](https://github.com/blaterwolf)
+
+## 0.9.2 - v2
+- Modified the Controllers that got affected by changes in `reservation_status`
+- Removed `Signatory` model
+- Modified the CRON Jobs that got affected by changes in `reservation_status`
+- Added `Reservation_Signatory` to give way to the development of Signatory module
+- Pushed by [Kim](https://github.com/Moonkeyk)
+- Hotfix v2: for `resetPasswordLink` where I modified the link to match with the dynamic link for CodeIgniter
+- Pushed by [Albert](https://github.com/blaterwolf)
+
+## 0.9.3 - v3
+- Added a new endpoint in home: `verifyResetPassword` - check if yung reset token ay valid. if valid, magpapakita yung form sa frontend, kapag hindi, edi go back lang.
+- Hotfix v2: Modified the status code for `verifyResetPassword` kapag expired.
+- Hotfix v3: Added announcement_status filter in `getSpecificNews/Advisory` and fixed `announcement.js` model for `announcement_image`
+- Pushed by [Albert](https://github.com/blaterwolf)
+
+## 0.9.4
+- News Controller ported to Student folder for Students with News Reporter role
+- Pushed by [Albert](https://github.com/blaterwolf)
+
+## 0.9.5 - v5
+- Added initial signatory controller and routes for odrs
+- Pushed by [Paul](https://github.com/polekstulod).
+- Hotfix v2: Added an include on the annsys for the user_profiles to show up.
+- Minor update for Education Profile columns.
+- Pushed by [Albert](https://github.com/blaterwolf)
+- Added education profile routes and initialize its controllers
+- Pushed by [Paul](https://github.com/polekstulod).
+- Added Controller for `Organization`
+- Pushed by [Kim](https://github.com/Moonkeyk666)
+
+## 0.9.6 - v4
+- Added a Delete function for Deleting PhilHealth ID in the Database and in Azure Containers
+- **v2**: Added a Delete function for Deleting Vaccination Cards in the Database and in Azure Containers
+- Pushed by [Albert](https://github.com/blaterwolf)
+- **v3**: Added Create, View, and Update function on education profile controllers
+- **v4**: Updated education profile seeders
+- Pushed by [Paul](https://github.com/polekstulod).
+
+## 0.9.7 - v10
+- Updated the Patient_Information Table (removed some useless columns)
+- Added a relationship between organization and reservation table (kim pakigawa na)
+- **v2**: added holiday fetch for calendar
+- **v5**: removed `symptoms_date` in `Health_Appointments` (unnecessary na kasi)
+- **v6**: timezone chenez para dun sa may OMSSS appointments
+- **v7**: added a safety net `betweenValue` sa mga endpoints ng students
+- **v8**: dapat nilagay ko na to kanina yung remarks kapag nagaadd ng appointment...
+- **v9**: Added additional attributes sa may PUP Staff viewSpecificAppointment endpoint
+- **v10**: May nakalimutan na attribute PASENSYA NA saka wrong spelling yung `separate` parang tanga
+- Pushed by [Albert](https://github.com/blaterwolf)
+- **v3**: Added document_signatory table and added associations
+- **v4**: Added creating document signatories in document controller
+- Pushed by [Paul](https://github.com/polekstulod)
+
+## 0.9.8.5
+@Paul and Kim instead na - v2 or - v3 ang inaappend natin... ganito na lang .2 or .3
+Kapag major update like maraming dinagdag na code, mag increment kayo to 0.9.9 na ganon fdhshg
+- Added new endpoints for OMSSS PUP Staff to be used in Health and Contact Information Sections
+- `0.9.8.2`: Added immunization endpoint nakalimutan ko e
+- Pushed by [Albert](https://github.com/blaterwolf)
+- `0.9.8.3`: Updated email in ODRTS Email sending
+- `0.9.8.4`: Add document request signatory model
+- `0.9.8.5`: Updated document request signatory model and Added create document request signatory functionality
+- Pushed by [Paul](https://github.com/polekstulod)
+
+## 0.9.9.2
+- Ang dami wait lang 😭😭😭
+![Puss In Boots](https://media.tenor.com/Qu28lYPmussAAAAC/puss-in-boots-scared.gif "Puss In Boots Anxiety Scene")
+- Added new table: `health_appointment_evaluation.js`
+- Added connections to the tables in `user.js` and `health_appointment.js`
+- Modified the object name to `this` keyword in `health_appointment.js`
+- Added `is_evaluated` in `health_appointment.js`
+- Added 3 new routes (will add more probably)
+  - 2 Student Routes (View/Add Evaluation)
+  - 1 PUP Staff Route (View Evaluation)
+- All these can be found in their respective `evaluation.controller.js` files (📂 `student`/`staff`)
+- Added the `include` values for `appointmentLogs` endpoint in `health_appointment.controller.js`
+- `0.9.9.2`: Added new include values in the viewSpecificAppointment
+- Pushed by [Albert](https://github.com/blaterwolf)
+
+## 0.9.9.3
+- Modified `Reservation.controller.js` for Super Admin and PUP Staff
+- Modified `evrsers.route.js` for the changes made in the `Reservation.controller.js`
+- Pushed also the initial progress in the `signatory module`
+- Pushed by [Kim](https://github.com/Moonkeyk666)
+
+## 0.9.9.4.2
+- `0.9.9.4`: Added document signatory seeders
+- `0.9.9.4.1`: Added more document signatory seeders
+- `0.9.9.4.2`: Updated `documents.controller.js` to update document signatories
+- Pushed by [Paul](https://github.com/polekstulod)
+
+
+## 0.9.10
+- Changed the routes for PUP Staff's evaluation
+- Also added some `include` objects
+- Added `viewSpecificEvaluation`
+- Pushed by [Albert](https://github.com/blaterwolf)
+
+## 0.9.10.2
+- `0.9.10.1`: Removed doc_req_signatory model and replaced it with request_signatory model
+- `0.9.10.2`: Added `document_signatories` when viewing documents info
+- Updated `createRequestSignatory` function in `requests.controller.js`
+- Pushed by [Paul](https://github.com/polekstulod)
+
+## 0.9.11
+- Evaluation Analytics are added (see `evaluation_analytics.controller.js`)
+- Pushed by [Albert](https://github.com/blaterwolf)
+
+## 0.9.12
+- Fixed association in `document_signatory` model
+- Added `signatory_for_user` in viewing document info
+- Pushed by [Paul](https://github.com/polekstulod)
+
+## 0.9.13
+- Updated user profiles and document signatory seeders
+- Pushed by [Paul](https://github.com/polekstulod)
+
+## 0.9.14
+- Fixed ODRTS roles middleware
+- Updated education profile seeders
+- Added more signatories route in `odrts.route.js`
+- Initialized signatories controller in `signatories.controller.js`
+- Pushed by [Paul](https://github.com/polekstulod)
+
+## 0.9.15
+- Added view all signatories controllers in `signatories.controller.js`
+- Added associations in `request_signatory` model
+- Pushed by [Paul](https://github.com/polekstulod)
+
+## 0.9.16.2
+- Possible fix sa may view_done at view_cancelled as addressed ni zsy
+- Modified the placements of the endpoints to fit the hierarchy in `evrsers.route.js` for Super Admin controllers
+- Prettier fix in `reservation.controller.js` and `signatory.controller.js` in PUP Staff
+- Added `db` in `Sequelize.literal` functions in `reservation.controller.js` sa Super Admin in case na mag-bring up ulit yung error na `ReferenceError: Sequelize is not defined`
+- `0.9.16.2`: changed the positions in some code in `evrsers.route.js`
+- Pushed by [Albert](https://github.com/blaterwolf)
+
+## 0.9.17
+- Added view specific signatory controller in `signatories.controller.js`
+- Added view specific signatory route in `odrts.route.js`
+- Pushed by [Paul](https://github.com/polekstulod)
+
+## 0.9.18
+- Modified `Reservation.controller.js` for Super Admin and PUP Staff
+- Modified `evrsers.route.js` for the changes made in the `Reservation.controller.js`
+- Pushed by [Kim](https://github.com/Moonkeyk666)
+
+## 0.9.19
+- Added the new endpoints for `super_admin` to be used in modal
+- Pushed by [Albert](https://github.com/blaterwolf)
+
+## 0.9.20.2
+- Added filter `signatory_for_request` in viewing signatories in `signatories.controller.js`
+- Added approved and onhold column in request model
+- Initialized approved signatory controller in `signatories.controller.js`
+- Pushed by [Paul](https://github.com/polekstulod)
+- minor hiccup kay `news.controller.js`
+- Pushed by [Albert](https://github.com/blaterwolf)
+
+## 0.9.21.2
+- Added `is_approved_all` column in request model
+- Added `approveSignatory` functionality in `signatories.controller.js`
+- Pushed by [Paul](https://github.com/polekstulod)
+- `0.9.21.2`: removed the params for `viewHistory` endpoint'
+- Pushed by [Albert](https://github.com/blaterwolf)
+
+## 0.9.22.6
+- Updated `remarks` column in `request_signatory` model
+- Fixed `viewSpecificSignatory` and `viewAllApprovedSignatory` in `signatories.controller.js`
+- Added `onhold` route in `odrs.route.js`
+- Added `onholdSignatory` functionality controller in `signatories.controller.js`
+- `0.9.22.2`: Added revert onhold signatory functionality controller and routes in `signatories.controller.js` and `odrs.route.js`
+- Pushed by [Paul](https://github.com/polekstulod)
+- `0.9.22.5`: Updated `viewSpecificSignatory` in `signatories.controller.js`
+- Pushed by [Zsyrhill](https://github.com/Aexlin)
+- `0.9.22.3`: Removed the Super Admin endpoints for OMSSS (tinanggal ko na kasi sa may modal...)
+- `0.9.22.6`: Updated `evrsers`' viewAllStaff endpoint for signatory.
+- Pushed by [Albert](https://github.com/blaterwolf)
+
+## 0.9.23.6
+- Updated the analytics endpoint for super admin
+- `0.9.23.2`: Forgot to do it in Region Count
+- `0.9.23.3`: Added new analytics for super admin
+- `0.9.23.4`: Added count for three systems
+- `0.9.23.5`: Added three year appointment, request, and reservation count
+- `0.9.23.6`: Final Chart: comparison for three system count
+- Pushed by [Albert](https://github.com/blaterwolf)
+
+## 0.9.24.10
+- Modified the `reservation_signatory.js` associations kasi ang haba nung as keyword amputa
+- Modified the `evrsers.route.js` route `viewSpecificSignatory` to `viewReservationsToBeSigned`
+- `0.9.24.2`
+  - Renamed most of the `as` keywords due to the PostgreSQL limit that hinders from getting the data (tangina tlga)
+  - `viewSpecificReservationAndSignatories` getting all the signatories and the reservation...
+- `0.9.24.4`
+  - Full `approveReservations` code.
+- `0.9.24.6`
+  - Added a bunch of code later to be used
+  - Updated: `viewDetailsReservationStaff`
+- `0.9.24.7`
+  - Added `onHoldReservation` and `viewUserOnHoldReservations`
+- `0.9.24.8`
+  - Added `revertOnHoldReservation` and `viewUserApprovedReservations`
+- `0.9.24.10`
+  - Added two new endpoints: `viewAllSignatoriesStaff` (PUP Staff) and `viewAllSignatories` (Student)
+- Pushed by [Albert](https://github.com/blaterwolf)
+- `0.9.24.3`: Added `viewSpecificRequestSignatory` in `odrs.route.js` and `odrs.controller.js`
+- `0.9.24.5`: Fixed `approveSignatory` logic and errors might possible happen 😬 in `signatories.controller.js`
+- `0.9.24.9`: Fixed `revertOnHold` onhold date logic in `signatories.controller.js`
+- Pushed by [Paul](https://github.com/polekstulod)
+
+## 0.9.25.3
+- Added `Document_Request_Evaluation` model
+- Added `Document_Request_Evaluation`, `Request` and `User` model associations
+- Pushed by [Paul](https://github.com/polekstulod)
+- `0.9.25.2`: Modified the onhold/revert codes in signatory evrsers
+- `0.9.25.3`: Removed the attributes para exposed lahat ng values sabi ni zsy
+- Pushed by [Albert](https://github.com/blaterwolf)
+
+## 0.9.26.3
+- Added Email Sending to Newly Created Accounts in myPUPQC
+- `0.9.26.2`: Update for zsy: nilagyan lang ng or condition for For Revision
+- Pushed by [Albert](https://github.com/blaterwolf)
+- `0.9.26.3`: Added student evaluation for request in `odrs.controller.js` and `evaluation.controller.js`
+- Pushed by [Paul](https://github.com/polekstulod)
+
+## 0.9.27.2
+- Added `viewEvaluation` and `addEvaluation` in `evaluation.controller.js`
+- Fixed some columns and associations in `request` and `document_request_evaluation` models
+- Fixed `viewEvaluation` in `odrs.routes.js`
+- `0.9.27.2` 
+  - Added `viewEvaluation` for staff in `evaluation.controller.js`
+  - Added `viewEvaluation` route for staff in `odrs.routes.js`
+  - Fixed `request` model associations
+- Pushed by [Paul](https://github.com/polekstulod)
+
+## 0.9.28.7
+- `0.9.28.5`
+  - Modified `reservation.js` model to giveway to development of `Evaluation Management`
+  - Added Initial progress of `Evaluation Management` to both PUP Staff and Student side.
+- Pushed by [Kim](https://github.com/Moonkeyk666)
+- Added Security Encryption for Medical History (sir keinaz 🥹💖)
+- `0.9.28.3`
+  - Changed the datatype for Medical History columns from `DataTypes.STRING` to `DataTypes.TEXT`
+- `0.9.28.4`
+  - Updated the database's console log message.
+- `0.9.28.6`
+  - Updated the analytics for User Blacklist (baliktad sorry)
+- Pushed by [Albert](https://github.com/blaterwolf)
+- `0.9.28.2`
+  - Fixed `calculateAverageRating` string to int conversion in `evaluation.controller.js`
+  - Added `document_request_evaluation` in  `viewRequestsHistory` in `requests.controller.js`
+- `0.9.28.7`
+  - Added evaluation analytics controllers in `evaluation_analytics.controller.js`
+  - Added evaluation analytics routes in `odrs.routes.js`
+- Pushed by [Paul](https://github.com/polekstulod)
+
+## 0.9.29
+- Finalized the `Evaluation Management` on both PUP Staff and Student Side
+- Pushed by [Kim](https://github.com/Moonkeyk666)
+
+## 0.9.30
+- Redirect the reset password change in mypupqc@gmail.com
+- Pushed by [Albert](https://github.com/blaterwolf)
+
+## 0.9.31
+- Fixed User, Education profiles and User Profile seeders
+- Pushed by [Paul](https://github.com/polekstulod)
+
+## 0.9.32
+- [We're getting the band back together](https://www.youtube.com/watch?v=dL35fiKj-30)
+- Added a new line in user_role.controller.js for compiling `viewAllUsersRoles` where when a situation is null, it should be filtered out.
+- Pushed by [Albert](https://github.com/blaterwolf)
+
+## 0.9.33
+- Updated holiday.controller.js on Student side since it affects EVRSERS and OMSSS.
+- Pushed by [Albert](https://github.com/blaterwolf)
+
+# 0.10.0 🎉
+----
+- Iskolarly Endpoints are updated in this latest commit. Thanks Mejela and Christian!
+- Pushed by [Albert](https://github.com/blaterwolf)
+
+## 0.10.1
+- New updates for Iskolarly Blob Clients for Azure Storage
+- Pushed by [Albert](https://github.com/blaterwolf)
+
+## 0.10.2
+- Updated email transport for OMSSS
+- Pushed by [Albert](https://github.com/blaterwolf) 
+
+## 0.10.3
+- Ran `npm audit fix` to update package-lock.json (hopefully walang natamaan na part ng code...)
+- Pushed by [Albert](https://github.com/blaterwolf) 
+
+## 0.10.4
+- MQC-7: Lockout Policy - Development Completed, for QAT
+- Pushed by [Albert](https://github.com/blaterwolf) 
+
+## 0.10.5
+- MQC-6: All Input Fields must be Cleaned to Avoid XSS (new middleware and package!)
+- Related to MQC-6: just updated test.controller.js and test.route.js. Should delete this in the next update.
+- Preparing MQC-8 for a new Backend login endpoint.
+- Pushed by [Albert](https://github.com/blaterwolf)
+
+## 0.10.6
+- Hotfix for MQC-6: added PATCH request method
+- Pushed by [Albert](https://github.com/blaterwolf)
+
+## 0.10.7 🎉
+- MQC-8: Admin Routes, Admin/AdminProfile Model, and Admin Controllers / Login should be expected to work.
+- Removed the `console.log` in xssMiddlewares
+- Pushed by [Albert](https://github.com/blaterwolf)
+
+## 0.10.8
+- Dependency Update (hopefully walang masira...)
+- 13 Moderate Vulnerabilities
+- Pushed by [Albert](https://github.com/blaterwolf)
+
+## 0.10.9
+- Added Edit news and announcement controller
+- Added middleware @annsys.route
+- Pushed by [Eurus](https://github.com/eurus-eastwind)
+- Added Edit Advisory in 'advisory.controller.js'
+- Pushed by [rev-017](https://github.com/rev-017)
+- Added include @student>>announcement
+- Pushed by [Eurus](https://github.com/eurus-eastwind)
+
+## 0.10.10
+- Removed the test routes and controller
+- Pushed by [Albert](https://github.com/blaterwolf)
+
+## 0.10.11
+- Add "Research Archives" Controller
+- Update the Iskolarly related controllers
+- Update the Iskolarly Route by adding route for research archives
+- Pushed by [Christian](https://github.com/papichans)
+
+## 0.10.12
+- Rename "Iskolarly" to "ResearchCop" it renames all the Controllers and Routes
+- Update researchcop Controllers and Routes
+- Add "getAuthor" function in Student/researchcop controllers
+- Add "getAdmin" function in super_admin/researchcop controllers
+- Pushed by [Christian](https://github.com/papichans)
+
+## 0.10.13
+- Fix researchcop wrong path of routes
+- Pushed by [Christian](https://github.com/papichans)
+
+## 0.10.14
+- Rename the "iskolarly" Route into "researchcop" in index.js
+- Pushed by [Christian](https://github.com/papichans)
+
+## 0.10.15
+- Fix researchcop wrong path of controller path script
+- Remove all the folders related to "Iskolarly" such as Routes and Controllers
+- Pushed by [Christian](https://github.com/papichans)
+
+## 0.10.16
+- Fix researchcop Approve Research data misplaced
+- Fix researchcop Delete Research Query Error
+- Pushed by [Christian](https://github.com/papichans)
+
+## 0.10.17
+- Add BlobServiceClient Requirements in researchcop controllers
+- Add nodeMailer Requirements in researchcop controllers
+- Pushed by [Christian](https://github.com/papichans)
+
+## 0.10.17.1
+- Remove BlobServiceClient Requirements in researchcop controllers for a while
+- Remove nodeMailer Requirements in researchcop controllers for a while
+- Pushed by [Christian](https://github.com/papichans)
+
+## 0.10.18
+- Micah updates
+- MQC-47: Fix bug in adding of Signatories
+- MQC-53: Fix double signatories bug
+- Pushed by [Micah](https://github.com/micahvllz)
+
+## 0.10.19
+- Added All in facility analytics controller
+- Pushed by [Albert](https://github.com/blaterwolf)
+
+## 0.10.20
+- MQC-50: ODRTS - Make the name and picture in remarks for OIC, Student Records dynamic
+- Pushed by [Paul](https://github.com/polekstulod)
+
+## 0.10.21
+- MQC-54: ODRTS - Fix bug in document and signatories workflow to not appear when a document has no signatories
+- Pushed by [Paul](https://github.com/polekstulod)
+
+## 0.10.22
+- Added EventReservation Model (For checking of Albert)
+- Pushed by [Steph](https://github.com/Klyy00)
+
+## 0.10.23
+- Checked and revised some code for EVRSERS' new table
+- Pushed by [Albert](https://github.com/blaterwolf)
+
+## 0.10.24
+- Return BlobServiceClient Requirements in researchcop controllers
+- Return nodeMailer Requirements in researchcop controllers
+- Changed research_status: "Deleted" to "Archived" value accepted in research_details table
+- Add Mailgun function on Approving Research in research_pending controller (for Testing Purposes)
+- Pushed by [Christian](https://github.com/papichans)
+
+## 0.10.25
+- Create eventreservation controller (student)
+- Updated reservation seeders (removed facilityid) 
+- Updated facility (remove association to reservation)
+- Pushed by [Filwayne](https://github.com/drollive)
+
+## 0.10.26
+- Remove nodemailer Requirements in researchchop controllers (In student side only)
+- Add "research_pdf" column in research_details.js table for file uploading purposes
+- Add Upload route in student ResearchCop Routes.
+- Add Upload (PUT) Function in my_submissions.controller in ResearchCop
+- Add Delete route in student ResearchCop Routes.
+- Add Delete (DELETE) Function in my_submissions.controller in ResearchCop
+- Pushed by [Christian](https://github.com/papichans)
+
+## 0.10.27
+- Add Return Research function in research_archives controller
+- Add Return Research function in research_archives routes
+- Pushed by [Christian](https://github.com/papichans)
+
+## 0.10.27.1
+- Fix Return Research function in research_archives controller (To be Test)
+- Fix Email Sending function in research_pending controller (To be Test)
+- Pushed by [Christian](https://github.com/papichans)
+
+## 0.10.27.2
+- Fixed Return Research function in research_archives controller
+- Fixed Email Sending function in research_pending controller
+- Fixed Uploading Function in "My Submissions" controller in ResearchCop
+- Updating ResearchCop routes to be more functional
+- Pushed by [Christian](https://github.com/papichans)
+
+# 0.11.0 🎉
+----
+- Full Facility Reservation System (FRS) code for Student/PUP Staff/Super Admin are ready for implementation.
+- Along with this implementation, modified Facility.js model/table and added FacilityReservation.js model/table.
+- Boilerplate for Organization Management System (ORGMS) and Event Monitoring System (EMS) routes are ready for this version.
+- REMOVED all Migration files as it is no longer necessary yet.
+- Pushed by [Albert](https://github.com/blaterwolf)
+
+## 0.11.1
+- Added Verification Table and Verification Code Generator to be used later in ORGMS in PUP Staff.
+- Added Cron Jobs for Destroying Verification Codes generated by the system running every 30 minutes.
+- Pushed by [Albert](https://github.com/blaterwolf)
+
+## 0.11.2
+- Add Email sending function in Rejeting Research in ResearchCop
+- Add Email sending function in Archiving Research in ResearchCop
+- Add Email sending function in Returning Research in ResearchCop
+- Fixed View Research Document in Admin and Student page of ResearchCop
+- Add Delete Research Upload in My Submissions controllers
+- Updating ResearchCop routes for more functionalities
+- Set 2 Accepted Values in "research_type" in research model
+- Pushed by [Christian](https://github.com/papichans)
+
+## 0.11.3
+- Verification Table Cron Job Logic updated. Added to the index.js (nakalimutan)
+- Pushed by [Albert](https://github.com/blaterwolf)
+
+## 0.11.4
+- Add "copyiright-attachments" blob in Azure Storage Explorer
+- Add "copyright_pdf" column in research_details.js model
+- Add "copyright_status" column in research_details.js model
+- Add "copyright_remarks" column in research_details.js model
+- Add "copyright_checked_by" column in research_details.js model
+- Add "copyright-attachments" multer in imageStorage.js
+- Add copyrightAttachmentUpload multer in imageMiddleware.js
+- Add copyrightAttachmentUpload multer in researchcop route
+- Add copyright controller in ResearchCop routes
+- Updating ResearchCop Routes
+- Add copyright management controller for ResearchCop
+- Pushed by [Christian](https://github.com/papichans)
+
+# 0.11.5
+- Add column in ResearchCop model: research_co_author
+- Update submissions controller in ResearchCop by adding research_co_author
+- Updating researchcop routes by adding resubmit function and features
+- Add dashboard controller for ResearchCop
+- Pushed by [Christian](https://github.com/papichans)
+
+## 0.11.6
+- Added Edit Holiday code.
+- Pushed by [Albert](https://github.com/blaterwolf)
+
+## 0.11.7
+- Modified facilityreservation.js to cater new input fields
+- Pushed by [Albert](https://github.com/blaterwolf)
+
+## 0.11.8 🎉
+- Added new tables: OrganizationOfficers, EventEvaluation, EventPubmats, and EventSignatory
+- Modified a lot on User, Organization, and EventReservation tables.
+- Added new Storage and Middleware for Images: organizationLogoStorage + organizationLogoUpload
+- Added new routes and controllers for orgms. Adding and viewing organizations.
+- Pushed by [Albert](https://github.com/blaterwolf)
+
+## 0.11.9
+- Added new routes for PUP Staff and Super Admin for ORGMS.
+- Added endpoint for fetching Students with no Organizer Role.
+- Pushed by [Albert](https://github.com/blaterwolf)
+
+## 0.11.10
+- Added Student Endpoints for EMS (no code yet... boilerplate muna)
+- Added all Associations relating to EventReservation. 
+- Pushed by [Albert](https://github.com/blaterwolf)
+
+## 0.11.11
+- Modified EventReservation table (added new columns)
+- Add Reservation, View Event Reservation of Organization, View User Event Reservation, and  View Specific Reservation added code.
+- Added addPubmats endpoint.
+- Modified route for viewStudentNoOrganizerStaff
+- Pushed by [Albert](https://github.com/blaterwolf)
+
+## 0.11.12
+- Update the ResearchCop route: Changing the controller paths.
+- Move ALL the ResearchCop controller folder in staff folder for controllers
+- Add new role: "Research Manager"
+- Add new staff: staff8@pup.edu.ph
+- Pushed by [Christian](https://github.com/papichans)
+
+## 0.11.13
+- Modified one route on `orgms.route.js` since it was a conflict from the previous route
+- Modified some include statements in `organization.controller.js` for PUP Staff.
+- Modified include statements in `reservation.controller.js` for Student endpoints.
+- Migrated endpoints from evrsers to ems (edit/cancel/addpubmats)
+- Pushed by [Albert](https://github.com/blaterwolf)
+
+## 0.11.14
+- Migrated all Signatories and Reservation for PUP Staff related transaction in EMS and reworked the naming of some endpoints.
+- Will conduct more extensive testing for all signatory endpoint to test whether previous code is working.
+- Pushed by [Albert](https://github.com/blaterwolf)
+
+## 0.11.15
+- Added viewAllFacilityReservation on Student
+- Pushed by [Albert](https://github.com/blaterwolf)
+
+## 0.11.15.1
+- Hotfix for viewUserEventReservation
+- Pushed by [Albert](https://github.com/blaterwolf)
+
+## 0.11.15.2
+- Minor update for both reservation and signatory controllers in EMS.
+- Pushed by [Albert](https://github.com/blaterwolf)
+
+## 0.11.15.3
+- Minor route change and controller changes for adding reservation and viewing reservation of organizations
+- Pushed by [Albert](https://github.com/blaterwolf)
+
+## 0.11.15.4
+- Add new column in research_details.js: Research Category
+- Research Category Update: Update Student ResearhCop Controllers
+- Research Category Update: Update Staff ResearhCop Controllers
+- Update ResearchCop routes for Research Category
+- Research and Capstone are now distributed on the controllers
+- Pushed by [Christian](https://github.com/papichans)
+
+# 0.12.0 🎉
+----
+- **Major Update**: Changed bcrypt for all passwords to **AES-256-GCM Encryption** as per Sir Keinaz
+- This security update uses **AES-256-GCM Encryption** as a way to encrypt passwords in the database.
+- The `login.controller.js` now uses the encrypt and decrypt function found in aes256.js
+- More updates for `evaluation.controller.js` for EMS Student endpoints.
+- Added `accomplishment_report` column in EventReservation with a new Blob Storage Container
+- Pushed by [Albert](https://github.com/blaterwolf)
+
+## 0.12.1
+- Fix the research_category null values in ResearchDetails.js
+- Pushed by [Christian](https://github.com/papichans)
+
+## 0.12.2
+- Forgot to update the endpoint for `loginToAdmin` in login.controller.js relating to **AES-256-GCM Encryption**.
+- Pushed by [Albert](https://github.com/blaterwolf)
+
+## 0.12.2.1
+- Updated code for viewing reservations.
+- Pushed by [Albert](https://github.com/blaterwolf)
+
+## 0.12.2.2
+- Reupdated the code for viewing reservations.
+- Pushed by [Albert](https://github.com/blaterwolf)
+
+## 0.12.2.3
+- Fix the research_category null values in ResearchDetails.js by adding default value and validation
+- Pushed by [Christian](https://github.com/papichans)
+
+## 0.12.2.4
+- Fixed Change Password routes for all actors relating to **AES-256-GCM Encryption**.
+- Pushed by [Albert](https://github.com/blaterwolf)
+
+## 0.12.3
+- Server side recaptcha added
+  - home.route.js -> /verify-recaptcha -> recaptcha.controller.js -> verifyRecaptcha
+- Pushed by [Albert](https://github.com/blaterwolf)
+
+## 0.12.3.1
+- minor fix for that captcha thingy
+- Pushed by [Albert](https://github.com/blaterwolf)
+
+## 0.12.3.2
+- Updated the CRON job for OMSSS
+- Updated the package-lock.json
+- Pushed by [Albert](https://github.com/blaterwolf)
+
+## 0.12.4
+- Updated the `education_profile.js` model so that it can accept null values.
+- Updated the `addStudent` endpoint in `admin_power.controller.js` so that it generates an education profile id in the table.
+- Pushed by [Albert](https://github.com/blaterwolf)
+
+## 0.12.4.1
+- Reupdated `admin_power.controller.js` kasi ang nalagyan ko lang nung code is yung para sa Admin not the `enrollStudent` and `enrollStaff` endpoints.
+- Pushed by [Albert](https://github.com/blaterwolf)
+
+## 0.12.4.2
+- Nilagyan lang ng comma yung pag-set ng value sa `full_address`
+- Pushed by [Albert](https://github.com/blaterwolf)
+
+## 0.12.4.3
+- Add View All Research Functions in Student / Staff Controllers
+- Update ResearchCop routes: add All research Function + Dashboard ready scripts
+- New Model: "research_author" for multiple co-authors (To be fix associations)
+- Update Mode: user.js by adding association from research_author to users
+- New Controller: dashboard.controller for Student Research Papers
+- New Controller: author.controller that associated in research authors
+- Pushed by [Christian](https://github.com/papichans)
+
+## 0.12.4.4
+- Update researchCop routes for Additional Analytics
+- Adding More controllers for ResearchCop Analytics [In Progress]
+- Add author controller for get research author [Currently Useless]
+- Submissions controller adding POST Method in adding research for Research Authors [May Error but still working]
+- To be Fix: Updating and Fixing ResearchCop Analytics for SUPER ADMIN Dashboard Analytics 
+- Pushed by [Christian](https://github.com/papichans)
+
+## 0.12.5
+- Data Privacy Agreement Endpoint
+- Pushed by [Albert](https://github.com/blaterwolf)
+
+## 0.12.6
+- Update ResearchCop Student Dashboard: Display Researches
+- Update ResearchCop Staff Dashboard: Complete Analytics
+- Update myPUPQC Admin Analytics: Importing ResearchCop Analytics
+- Pushed by [Christian](https://github.com/papichans)
+
+## 0.12.6.1
+- Minor update in user_profile.js to populate the full_address using the `this.getDataValue`
+- Pushed by [Albert](https://github.com/blaterwolf)
+
+## 0.12.7
+- Update ResearchCop routes for Search Engine
+- Remove error code in add research in ResearchCop
+- NEW ResearchCop Feature: Search Engine - Is now fully functional
+- Pushed by [Christian](https://github.com/papichans)
